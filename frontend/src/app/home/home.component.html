@@ -1,0 +1,27 @@
+<div *ngIf="displayTable">
+    <a routerLink="login" (click)="handleLogout()">Logout</a>
+    <hr>
+    <table datatable [dtOptions]="dtOptions" class="row-border hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Notice</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <td>{{product.name}}</td>
+                <td>{{product.price}} €</td>
+                <td>{{product.notice}}</td>
+                <td>
+                    <button *ngIf="isAdmin" (click)="handleDelete(product.id)">Delete</button>
+                    <span>&nbsp; &nbsp; </span>
+                    <span>&nbsp; &nbsp; </span>
+                    <a routerLink="/update/product" (click)="setProduct(product)">Update</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

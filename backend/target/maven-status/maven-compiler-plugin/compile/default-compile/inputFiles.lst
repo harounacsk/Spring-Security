@@ -1,0 +1,17 @@
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\payload\request\LoginRequest.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\config\RsaKeysConfig.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\model\Role.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\service\JpaUserDetailsService.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\controller\AuthController.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\payload\request\SignupRequest.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\controller\ProductController.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\payload\response\MessageResponse.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\repository\UserRepository.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\model\User.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\repository\RoleRepository.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\SecurityServiceApplication.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\config\SecurityConfig.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\GenerateKeyPair.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\model\Product.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\service\SecurityUser.java
+C:\Users\Harouna\Documents\Mon_projet\security-service\src\main\java\sen\securityservice\repository\ProductRepository.java

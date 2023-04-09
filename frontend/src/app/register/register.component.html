@@ -1,0 +1,10 @@
+<form [formGroup]="registerFormGroup" (ngSubmit)="handleSignUp()">
+    <label for="username">Username:</label>
+    <input type="text" formControlName="username" class="form-control" id="username"><br><br>
+    <label for="email">Email:</label>
+    <input type="text" formControlName="email" class="form-control" id="email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" formControlName="password" class="form-control" id="password"><br><br>
+    <button type="submit" [disabled]="registerFormGroup.invalid"> Register </button>
+</form>
+<a routerLink="/login">Sign in</a>
